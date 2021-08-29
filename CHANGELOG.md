@@ -1,3 +1,10 @@
+### [1.2.5](https://github.com/iamyoki/playwright-watch/compare/1.2.4...1.2.5) (2021-08-29)
+
+
+### 🌠 Docs
+
+* update README.md ([909d138](https://github.com/iamyoki/playwright-watch/commit/909d13811308b8ed16c0481c754eb9c9eaa49d22))
+
 ### [1.2.4](https://github.com/iamyoki/playwright-watch/compare/1.2.3...1.2.4) (2021-08-29)
 
 
