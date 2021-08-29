@@ -78,18 +78,17 @@ run `npx playwright-watch --help` to see more details.
 🐵 Run Playwright in watch mode
 
 Commands:
-  playwright-watch                    Use the same as Playwright but under
-                                      watch
-                                      (e.g. playwright-watch test)   [default]
+  playwright-watch <commands..>       Use the same as Playwright but under watch
+                                      (e.g. playwright-watch test)     [default]
   playwright-watch exec <commands..>  Run commands when changes are detected
                                       (e.g. playwright-watch exec yarn test)
 
 Options:
-  -h, --help        Show help                                        [boolean]
-  -v, --version     Show version number                              [boolean]
-  -c, -c, --config  Configuration file of Playwright (default:
-                    playwright.config.js), the `testMatch` prop will be watch
-                    path (default: `.*(test|spec).(js|ts|mjs)`).
+  -h, --help     Show help                                             [boolean]
+  -v, --version  Show version number                                   [boolean]
+  -c, --config   Configuration file of Playwright (default:
+                 playwright.config.js), the `testMatch` prop will be watch path
+                 (default: `.*(test|spec).(js|ts|mjs)`).
 
 Examples:
   playwright-watch test
