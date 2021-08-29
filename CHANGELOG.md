@@ -1,3 +1,17 @@
+### [1.2.2](https://github.com/iamyoki/playwright-watch/compare/1.2.1...1.2.2) (2021-08-29)
+
+
+### 🧰 Bug Fixes
+
+* config search error ([365f413](https://github.com/iamyoki/playwright-watch/commit/365f41365bf23cb774c19a3b68f20836a0e30448))
+* default command optimize ([c0c63f3](https://github.com/iamyoki/playwright-watch/commit/c0c63f3f36e588e48c3aaa52e8dd263b12a8448b))
+* error when config file doesn't exits ([f66647d](https://github.com/iamyoki/playwright-watch/commit/f66647dc6da5fc65c6ce9f2b7d6cb96a41f5d2a2))
+
+
+### 🌠 Docs
+
+* update README.md ([bddd13c](https://github.com/iamyoki/playwright-watch/commit/bddd13cbf04f9080eabec6a6fb16ee35596689c3))
+
 ### [1.2.1](https://github.com/iamyoki/playwright-watch/compare/1.2.0...1.2.1) (2021-08-29)
 
 
