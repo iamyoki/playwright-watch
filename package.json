@@ -1,0 +1,13 @@
+{
+  "name": "playwright-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yokiyuqian@gmail.com <yokiyuqian@gmail.com>",
+  "license": "MIT",
+  "bin": "./bin/playwright-watch.js",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "cosmiconfig": "^7.0.1",
+    "yargs": "^17.1.1"
+  }
+}
