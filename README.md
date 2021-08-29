@@ -9,13 +9,18 @@
 
 ## Usage
 
-`npx playwright-watch test`
-
+```bash
+npx playwright-watch test
+```
 ### **Or you can install locally**
 
-`yarn add playwright-watch -D`
+```bash
+yarn add playwright-watch -D
 
-or `npm install playwright-watch --save-dev`
+#or
+
+npm install playwright-watch --save-dev
+```
 
 ### Add script to your package.json
 
