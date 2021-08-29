@@ -1,0 +1,18 @@
+git:
+  commitMessages: "chore: release v${version}"
+
+plugins:
+  "@release-it/conventional-changelog":
+    preset:
+      name: conventionalcommits
+      types:
+        - type: feat
+          section: 🚀 Features
+        - type: fix
+          section: 🧰 Bug Fixes
+        - type: chore
+          section: 🔫 Chores
+        - type: docs
+          section: 🌠 Docs
+        - {}
+    infile: CHANGELOG.md

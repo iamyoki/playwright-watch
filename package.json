@@ -2,12 +2,35 @@
   "name": "playwright-watch",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "🙈🐵 Run Playwright in watch mode",
+  "keywords": [
+    "playwright",
+    "playwright watch",
+    "watch mode",
+    "automation",
+    "chrome",
+    "puppeteer",
+    "test",
+    "end 2 end"
+  ],
   "author": "yokiyuqian@gmail.com <yokiyuqian@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamyoki/playwright-watch.git"
+  },
+  "bugs": "https://github.com/iamyoki/playwright-watch/issues",
   "license": "MIT",
   "bin": "./bin/playwright-watch.js",
+  "scripts": {
+    "release": "release-it"
+  },
   "dependencies": {
     "chokidar": "^3.5.2",
     "cosmiconfig": "^7.0.1",
     "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^3.3.0",
+    "release-it": "^14.11.5"
   }
 }
