@@ -1,3 +1,10 @@
+### [1.2.3](https://github.com/iamyoki/playwright-watch/compare/1.2.2...1.2.3) (2021-08-29)
+
+
+### 🔫 Chores
+
+* add playwright into peerDependencies ([dbefc7d](https://github.com/iamyoki/playwright-watch/commit/dbefc7d28e9685e4a9fd496c2886006a4335a784))
+
 ### [1.2.2](https://github.com/iamyoki/playwright-watch/compare/1.2.1...1.2.2) (2021-08-29)
 
 
