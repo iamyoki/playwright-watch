@@ -1,18 +1,39 @@
-# playwright-watch
+<h1 align="center">playwright-watch</h1>
 
-![npm](https://img.shields.io/npm/v/playwright-watch)
-![npm (tag)](https://img.shields.io/npm/v/playwright-watch/latest)
-![NPM](https://img.shields.io/npm/l/playwright-watch)
-![GitHub issues](https://img.shields.io/github/issues/iamyoki/playwright-watch)
+<div align="center">
+  <a href="https://www.npmjs.com/package/playwright-watch">
+    <img src="https://img.shields.io/npm/v/playwright-watch" alt="npm">
+  </a>
 
-🙈🐵 Run Playwright in watch mode
+  <a href="https://www.npmjs.com/package/playwright-watch">
+    <img src="https://img.shields.io/npm/v/playwright-watch/latest" alt="npm">
+  </a>
+
+  <a href="https://github.com/iamyoki/playwright-watch">
+    <img src="https://img.shields.io/npm/l/playwright-watch" alt="github">
+  </a>
+
+  <a href="https://github.com/iamyoki/playwright-watch">
+    <img src="https://img.shields.io/github/issues/iamyoki/playwright-watch" alt="github issues">
+  </a>
+</div>
+
+<br>
+<br>
+
+<p align="center">🙈🐵 Run Playwright in watch mode</p>
+
+<br>
 
 ## Usage
 
 ```bash
 npx playwright-watch test
 ```
-### **Or you can install locally**
+
+> Note: There is a peer dependency on `playwright`.
+
+### Or you can install locally
 
 ```bash
 yarn add playwright-watch -D
@@ -22,7 +43,7 @@ yarn add playwright-watch -D
 npm install playwright-watch --save-dev
 ```
 
-### Add script to your package.json
+Add script to your package.json
 
 ```json
 {
@@ -37,6 +58,38 @@ or
   "test": "playwright test",
   "test:watch": "playwright-watch exec yarn test"
 }
+```
+
+## CLI Details
+
+run `npx playwright-watch --help` to see more details.
+
+```bash
+🙈 playwright-watch
+
+🐵 Run Playwright in watch mode
+
+Commands:
+  playwright-watch                    Use the same as Playwright but under
+                                      watch
+                                      (e.g. playwright-watch test)   [default]
+  playwright-watch exec <commands..>  Run commands when changes are detected
+                                      (e.g. playwright-watch exec yarn test)
+
+Options:
+  -h, --help        Show help                                        [boolean]
+  -v, --version     Show version number                              [boolean]
+  -c, -c, --config  Configuration file of Playwright (default:
+                    playwright.config.js), the `testMatch` prop will be watch
+                    path (default: `.*(test|spec).(js|ts|mjs)`).
+
+Examples:
+  playwright-watch test
+  playwright-watch test --config tests/playwright.config.js
+
+  playwright-watch exec yarn playwright test
+  playwright-watch exec yarn run test:e2e
+  playwright-watch exec echo changed
 ```
 
 ## Author
