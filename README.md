@@ -34,6 +34,7 @@
 
 ## Usage
 
+use exactly the same as Playwright, only on watch mode
 ```bash
 npx playwright-watch test
 ```
