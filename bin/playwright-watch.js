@@ -6,27 +6,35 @@ const defaultCommand = require('../commands/defaultCommand')
 const execCommand = require('../commands/execCommand')
 
 yargs(hideBin(process.argv))
-  .usage('🙈 $0 \n')
+  .usage('🙈 $0 \n\n 🐵 Run Playwright in watch mode')
   .command(
     '$0',
-    'Run Playwright in watch mode',
+    'Use the same as Playwright but under watch \n(e.g. playwright-watch test)',
     {
       config: {
         alias: 'c',
-        desc: 'Configuration file of playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `.*(test|spec).(js|ts|mjs)`).'
+        desc: 'Configuration file of Playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `.*(test|spec).(js|ts|mjs)`).'
       }
     },
     defaultCommand
   )
   .command(
-    'exec <commands>',
-    'Run command when changes are detected \n(e.g. playwright-watch exec yarn test)',
+    'exec <commands..>',
+    'Run commands when changes are detected \n(e.g. playwright-watch exec yarn test)',
     {},
     execCommand
   )
   .option('config', {
     alias: 'c',
-    desc: 'Configuration file of playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `.*(test|spec).(js|ts|mjs)`).'
+    desc: 'Configuration file of Playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `.*(test|spec).(js|ts|mjs)`).'
   })
+  .example([
+    ['$0 test'],
+    ['$0 test --config tests/playwright.config.js'],
+    [''],
+    ['$0 exec yarn playwright test'],
+    ['$0 exec yarn run test:e2e'],
+    ['$0 exec echo changed'],
+  ])
   .alias('help', 'h')
   .alias('version', 'v').argv
