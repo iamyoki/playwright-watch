@@ -32,5 +32,8 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",
     "release-it": "^14.11.5"
+  },
+  "peerDependencies": {
+    "playwright": ">=1"
   }
 }
