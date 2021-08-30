@@ -15,9 +15,13 @@ install:
 script:
   - yarn build
 
+after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+
+before_deploy: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+
 deploy:
   provider: script
-  script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc && yarn release --ci
+  script: yarn release --ci
   skip_cleanup: true
   on:
     branch: main
