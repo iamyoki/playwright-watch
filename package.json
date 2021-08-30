@@ -23,7 +23,8 @@
   "bin": "./bin/playwright-watch.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest",
+    "build": "rollup -c",
+    "test": "jest --coverage",
     "lint": "eslint '**/*.js' --color",
     "prerelease": "yarn test && yarn lint --fix",
     "release": "release-it"
@@ -45,6 +46,7 @@
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@release-it/conventional-changelog": "^3.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
     "@types/jest": "^27.0.1",
     "commitlint": "^13.1.0",
     "eslint": "^7.32.0",
@@ -58,7 +60,8 @@
     "jest": "^27.1.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
-    "release-it": "^14.11.5"
+    "release-it": "^14.11.5",
+    "rollup": "^2.56.3"
   },
   "peerDependencies": {
     "playwright": ">=1"
