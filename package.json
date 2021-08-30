@@ -31,7 +31,7 @@
   },
   "lint-staged": {
     "**/**.{test,spec}.js": [
-      "ls -l && yarn test"
+      "yarn test"
     ],
     "**/!(*{test,spec}).js": [
       "yarn lint --fix"
