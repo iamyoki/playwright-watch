@@ -14,5 +14,7 @@ plugins:
           section: 🔫 Chores
         - type: docs
           section: 🌠 Docs
+        - type: ci
+          section: 🗳️ CICD
         - {}
     infile: CHANGELOG.md

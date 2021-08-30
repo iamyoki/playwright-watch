@@ -23,12 +23,16 @@
   "bin": "./bin/playwright-watch.js",
   "scripts": {
     "prepare": "husky install",
-    "release": "release-it",
     "test": "echo \"no test found\"",
-    "lint": "eslint '**/*.js' --color"
+    "lint": "eslint '**/*.js' --color",
+    "prerelease": "yarn test && yarn lint --fix",
+    "release": "release-it"
   },
   "lint-staged": {
-    "**/!(*{test,spec}).js": ["yarn test", "yarn lint --fix"]
+    "**/!(*{test,spec}).js": [
+      "yarn test",
+      "yarn lint --fix"
+    ]
   },
   "dependencies": {
     "chokidar": "^3.5.2",
