@@ -1,3 +1,20 @@
+### [1.2.10](https://github.com/iamyoki/playwright-watch/compare/1.2.9...1.2.10) (2021-08-30)
+
+
+### 🔫 Chores
+
+* update travis ([86a811e](https://github.com/iamyoki/playwright-watch/commit/86a811ebbff349eba5857951c0b811e499e0b69d))
+* update travis ([5ec1531](https://github.com/iamyoki/playwright-watch/commit/5ec1531792157aa1f0568d85df9f7cea82fa6d3d))
+* update travis ([37c5631](https://github.com/iamyoki/playwright-watch/commit/37c5631d4e2905a9a786c0b3b161259d719f78b6))
+* update travis ([0a05ba8](https://github.com/iamyoki/playwright-watch/commit/0a05ba8c6e8c6611cabaa7637ccae9c4ed14ef78))
+* update travis ([5dfb752](https://github.com/iamyoki/playwright-watch/commit/5dfb7529eba0fcf5d830eb7c5151685733624e8a))
+* update travis ([6fab2dd](https://github.com/iamyoki/playwright-watch/commit/6fab2ddfd89f530c29a8acc3e64652aab1b3ba97))
+
+
+### 🧰 Bug Fixes
+
+* rollup error ([b64b860](https://github.com/iamyoki/playwright-watch/commit/b64b860aca1ef816a9f363440fc56d15c286ce4f))
+
 ### [1.2.9](https://github.com/iamyoki/playwright-watch/compare/1.2.8...1.2.9) (2021-08-30)
 
 ### [1.2.8](https://github.com/iamyoki/playwright-watch/compare/1.2.7...1.2.8) (2021-08-30)
