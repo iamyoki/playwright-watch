@@ -20,7 +20,7 @@
   },
   "bugs": "https://github.com/iamyoki/playwright-watch/issues",
   "license": "MIT",
-  "bin": "dist/playwright-watch.js",
+  "bin": "src/bin/playwright-watch.js",
   "scripts": {
     "prepare": "husky install",
     "build": "rollup -c",
