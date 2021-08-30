@@ -1,3 +1,21 @@
+### [1.2.7](https://github.com/iamyoki/playwright-watch/compare/1.2.5...1.2.7) (2021-08-30)
+
+
+### 🔫 Chores
+
+* add eslint prettier to check code syntax ([c57b138](https://github.com/iamyoki/playwright-watch/commit/c57b13801bfdbd042125ae08d0c51b4a1ba06220))
+
+
+### 🗳️ CICD
+
+* add prerelease script ([b146b11](https://github.com/iamyoki/playwright-watch/commit/b146b11ae7a8934aa242a09c0d89cecb41403b5a))
+
+
+### 🧰 Bug Fixes
+
+* ignore certain commit msg ([7ba7abc](https://github.com/iamyoki/playwright-watch/commit/7ba7abc2aa836aa27da122b5d85147c81aaa27b9))
+* version tag ([f7d7dcf](https://github.com/iamyoki/playwright-watch/commit/f7d7dcf094c3e60046d2803708917c915f38ee21))
+
 ### [1.2.5](https://github.com/iamyoki/playwright-watch/compare/1.2.4...1.2.5) (2021-08-29)
 
 
