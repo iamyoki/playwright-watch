@@ -18,7 +18,6 @@ script:
 
 deploy:
   provider: script
-  script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc && cat .npmrc && yarn release --ci
+  script: yarn release --ci
   on:
     branch: main
-    skip_cleanup: true
