@@ -17,8 +17,8 @@ script:
   - yarn test --coverage --ci
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: yarn release --ci
   on:
     branch: main
-    skip_cleanup: true
