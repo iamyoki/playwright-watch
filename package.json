@@ -1,7 +1,7 @@
 {
   "name": "playwright-watch",
   "version": "1.2.7",
-  "main": "index.js",
+  "main": "dist/playwright-watch.js",
   "description": "🙈🐵 Run Playwright in watch mode",
   "keywords": [
     "playwright",
@@ -20,7 +20,7 @@
   },
   "bugs": "https://github.com/iamyoki/playwright-watch/issues",
   "license": "MIT",
-  "bin": "./bin/playwright-watch.js",
+  "bin": "dist/playwright-watch.js",
   "scripts": {
     "prepare": "husky install",
     "build": "rollup -c",
