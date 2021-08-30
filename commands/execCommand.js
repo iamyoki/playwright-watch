@@ -2,7 +2,7 @@ const getWatchPath = require('../lib/getWatchPath')
 const watch = require('../lib/watch')
 
 function execCommand(argv) {
-  const { _, config, commands } = argv
+  const { config, commands } = argv
 
   watch(getWatchPath(config), commands)
 }
