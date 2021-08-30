@@ -26,7 +26,6 @@
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint '**/*.js' --color",
-    "prerelease": "yarn test && yarn lint --fix",
     "release": "release-it"
   },
   "lint-staged": {

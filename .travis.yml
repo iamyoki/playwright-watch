@@ -15,6 +15,7 @@ install:
 script:
   - yarn build
   - yarn test --coverage --ci
+  - yarn lint --fix
 
 before_deploy: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
