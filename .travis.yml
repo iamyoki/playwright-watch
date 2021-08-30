@@ -19,6 +19,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: yarn release --ci --npm.opt=${NPM_PASSWORD}
+  script: yarn release --ci --npm.otp=${NPM_PASSWORD}
   on:
     branch: main
