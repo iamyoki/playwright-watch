@@ -1,6 +1,9 @@
 git:
   commitMessages: "chore: release v${version}"
 
+hooks:
+  - before:npm:release: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > .npmrc"
+
 plugins:
   "@release-it/conventional-changelog":
     preset:

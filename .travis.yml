@@ -15,12 +15,9 @@ install:
 script:
   - yarn build
 
-before_deploy: yarn release --ci --no-npm --no-git
-
 deploy:
-  provider: npm
-  email: yokiyuqian@gmail.com
-  api_key: $NPM_TOKEN
+  provider: script
+  script: yarn release --ci
   skip_cleanup: true
   on:
     branch: main
