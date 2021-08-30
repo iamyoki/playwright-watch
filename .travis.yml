@@ -17,13 +17,11 @@ script:
   - yarn test --coverage --ci
 
 before_deploy:
-  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+  - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
 deploy:
   skip_cleanup: true
   provider: script
-  script:
-    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-    - yarn release --ci --npm.otp=${NPM_PASSWORD}
+  script: yarn release --ci --npm.otp=${NPM_PASSWORD}
   on:
     branch: main
