@@ -1,6 +1,9 @@
 git:
   commitMessages: "chore: release v${version}"
 
+npm:
+  ignoreVersion: true
+
 plugins:
   "@release-it/conventional-changelog":
     preset:
