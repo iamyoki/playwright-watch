@@ -24,7 +24,7 @@
   "scripts": {
     "prepare": "husky install",
     "build": "rollup -c",
-    "test": "jest --coverage",
+    "test": "jest",
     "lint": "eslint '**/*.js' --color",
     "prerelease": "yarn test && yarn lint --fix",
     "release": "release-it"
@@ -46,6 +46,7 @@
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@release-it/conventional-changelog": "^3.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@types/jest": "^27.0.1",
     "commitlint": "^13.1.0",
@@ -61,7 +62,8 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "release-it": "^14.11.5",
-    "rollup": "^2.56.3"
+    "rollup": "^2.56.3",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
   },
   "peerDependencies": {
     "playwright": ">=1"
