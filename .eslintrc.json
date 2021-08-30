@@ -8,6 +8,6 @@
   "parserOptions": {
     "ecmaVersion": 12
   },
-  "ignorePatterns": "**/*.{test,spec}.js",
+  "ignorePatterns": ["**/*.test.js"],
   "rules": {}
 }
