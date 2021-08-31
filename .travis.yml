@@ -15,16 +15,16 @@ install:
 script:
   - npm build
 
-after_script:
+after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+
+before_deploy:
   - git remote rm origin
   - git remote add origin https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git
   - git symbolic-ref HEAD refs/heads/main
 
-after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-
 deploy:
   provider: script
-  script: npm run release --ci
+  script: npm run release --ci --set-upstream origin main
   skip_cleanup: true
   on:
     branch: main
