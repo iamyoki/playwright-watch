@@ -10,12 +10,14 @@ branches:
     - main
 
 install:
-  - npm install
+  - npm ci
 
 script:
   - npm build
 
 after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+
+before_deploy: git status
 
 deploy:
   provider: script
