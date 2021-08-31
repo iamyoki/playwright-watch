@@ -3,25 +3,23 @@ language: node_js
 node_js:
   - 14
 
-cache: yarn
+cache: npm
 
 branches:
   only:
     - main
 
 install:
-  - yarn install --frozen-lockfile
+  - npm install
 
 script:
-  - yarn build
+  - npm build
 
 after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
 
-before_deploy: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
-
 deploy:
   provider: script
-  script: yarn release --ci
+  script: npm run release --ci
   skip_cleanup: true
   on:
     branch: main
