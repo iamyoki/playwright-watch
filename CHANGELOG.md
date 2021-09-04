@@ -1,3 +1,10 @@
+### [1.2.12](https://github.com/iamyoki/playwright-watch/compare/v1.0.0...v1.2.12) (2021-09-04)
+
+
+### 🧰 Bug Fixes
+
+* version ([36867a4](https://github.com/iamyoki/playwright-watch/commit/36867a4db30cc46a205cdba2668c297d9544c2e3))
+
 ### [1.2.10](https://github.com/iamyoki/playwright-watch/compare/1.2.9...1.2.10) (2021-08-30)
 
 
