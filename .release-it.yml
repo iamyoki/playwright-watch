@@ -1,5 +1,6 @@
 git:
   commitMessages: "chore: release v${version}"
+  pushRepo: "https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git"
 
 plugins:
   "@release-it/conventional-changelog":

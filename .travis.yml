@@ -22,7 +22,7 @@ before_deploy:
 
 deploy:
   provider: script
-  script: npm run release --ci --repo-
+  script: npm run release --ci
   skip_cleanup: true
   on:
     branch: main
