@@ -1,3 +1,10 @@
+### [1.2.25](https://github.com/iamyoki/playwright-watch/compare/v1.2.24...v1.2.25) (2021-09-06)
+
+
+### 🔫 Chores
+
+* travis update ([6ffadc1](https://github.com/iamyoki/playwright-watch/commit/6ffadc1d74bba7cf3a6adc39365425440dd57574))
+
 ### [1.2.24](https://github.com/iamyoki/playwright-watch/compare/v1.2.22...v1.2.24) (2021-09-06)
 
 

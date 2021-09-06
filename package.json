@@ -1,6 +1,6 @@
 {
   "name": "playwright-watch",
-  "version": "1.2.24",
+  "version": "1.2.25",
   "main": "dist/playwright-watch.js",
   "description": "🙈🐵 Run Playwright in watch mode",
   "keywords": [
