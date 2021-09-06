@@ -24,6 +24,7 @@
   "scripts": {
     "prepare": "husky install",
     "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
     "test": "jest",
     "lint": "eslint '**/*.js' --color",
     "commit": "git add . && yarn git-cz",

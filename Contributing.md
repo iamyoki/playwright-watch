@@ -11,25 +11,37 @@ _[Use GitHub interface](https://blog.sapegin.me/all/open-source-for-everyone/) f
 - If it’s your first pull request, watch [this amazing course](http://makeapullrequest.com/) by [Kent C. Dodds](https://twitter.com/kentcdodds).
 - Install [EditorConfig](https://editorconfig.org/) plugin for your code editor to make sure it uses correct settings.
 - Fork the repository and clone your fork.
-- Install dependencies: `npm install`.
+- Install dependencies: `yarn install --frozen-lockfile`.
 
 ## Development workflow
 
 Run linters and tests:
 
 ```bash
-npm test
+yarn test && yarn lint
 ```
 
 Or run tests in watch mode:
 
 ```bash
-npm run test:watch
+npm run test --watch
+```
+
+Build your code, ready for production:
+
+```bash
+yarn build
+```
+
+Or run build in watch mode:
+
+```bash
+yarn build:watch
 ```
 
 **Don’t forget to add tests and update documentation for your changes.**
 
-**Please update npm lock file (`package-lock.json`) if you add or update dependencies.**
+**Please update npm lock file (`package-lock.json / yarn.lock`) if you add or update dependencies.**
 
 ## Other notes
 
