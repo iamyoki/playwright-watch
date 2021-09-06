@@ -24,7 +24,7 @@
   </a>
 
   <a href="https://github.com/iamyoki/playwright-watch/actions/workflows/testing.yml">
-    <img alt="GitHub Testing Status" src="https://github.com/iamyoki/playwright-watch/actions/workflows/node.js.yml/badge.svg">
+    <img alt="GitHub Testing Status" src="https://github.com/iamyoki/playwright-watch/actions/workflows/testing.yml/badge.svg">
   </a>
 
   <a href="https://codecov.io/gh/iamyoki/playwright-watch">
