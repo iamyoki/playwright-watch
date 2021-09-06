@@ -49,8 +49,6 @@
 
 ## Usage
 
-[![Codecov](https://codecov.io/gh/iamyoki/playwright-watch/graph/badge.svg)](https://codecov.io/gh/iamyoki/playwright-watch) [![Node.js CI status](https://github.com/iamyoki/playwright-watch/workflows/Node.js%20CI/badge.svg)](https://github.com/iamyoki/playwright-watch/actions)
-
 use exactly the same as Playwright, only in watch mode
 ```bash
 npx playwright-watch test
