@@ -1,3 +1,29 @@
+### [1.2.26](https://github.com/iamyoki/playwright-watch/compare/v1.2.25...v1.2.26) (2021-09-06)
+
+
+### 🗳️ CICD
+
+* travis update ([7a9800a](https://github.com/iamyoki/playwright-watch/commit/7a9800a56118250b79f3a2a6745fdbbab385337d))
+
+
+### 🔫 Chores
+
+* 🔫 add git-cz ([f18dcaf](https://github.com/iamyoki/playwright-watch/commit/f18dcaf4b84bb5fc377a3478eda5a8bb00f454de))
+* 🔫 update config ([23d25b3](https://github.com/iamyoki/playwright-watch/commit/23d25b3ec731d6dfcb2150acb92e7a75ba11895e))
+* 🔫 update git-cz config, rm husky prepare-commit-msg ([5bddcb3](https://github.com/iamyoki/playwright-watch/commit/5bddcb37575f374d5f9bd03976bcadf7acbc4a4a))
+* intergrate with commitizen+husky ([976a124](https://github.com/iamyoki/playwright-watch/commit/976a1244c6012b2e86e31b298c52657023a164a1))
+* update config ([c5392a0](https://github.com/iamyoki/playwright-watch/commit/c5392a0268b0f21d110658e1a6812eeef293cd9e))
+
+
+### 🌠 Docs
+
+* 🌠 add Contributing.md ([51c937d](https://github.com/iamyoki/playwright-watch/commit/51c937d907c23b1444adf244151a8efe4a321807))
+
+
+### 🐛 Bug Fixes
+
+* 🐛 travis config ([34f2185](https://github.com/iamyoki/playwright-watch/commit/34f2185f2d265a71d23edf2be05688d7df383e25))
+
 ### [1.2.25](https://github.com/iamyoki/playwright-watch/compare/v1.2.24...v1.2.25) (2021-09-06)
 
 
