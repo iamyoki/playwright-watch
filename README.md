@@ -16,6 +16,10 @@
   <a href="https://github.com/iamyoki/playwright-watch">
     <img src="https://img.shields.io/github/issues/iamyoki/playwright-watch" alt="github issues">
   </a>
+
+  <a href="https://app.travis-ci.com/github/iamyoki/playwright-watch">
+    <img src="https://img.shields.io/travis/iamyoki/playwright-watch" alt="build">
+  </a>
 </div>
 
 <br>
