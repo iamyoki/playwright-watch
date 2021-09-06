@@ -9,12 +9,14 @@ plugins:
         - type: feat
           section: 🚀 Features
         - type: fix
-          section: 🧰 Bug Fixes
+          section: 🐛 Bug Fixes
         - type: chore
           section: 🔫 Chores
         - type: docs
           section: 🌠 Docs
         - type: ci
           section: 🗳️ CICD
+        - type: test
+          section: ✅ Testing
         - {}
     infile: CHANGELOG.md
