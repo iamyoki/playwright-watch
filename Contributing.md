@@ -27,18 +27,6 @@ Or run tests in watch mode:
 npm run test --watch
 ```
 
-Build your code, ready for production:
-
-```bash
-yarn build
-```
-
-Or run build in watch mode:
-
-```bash
-yarn build:watch
-```
-
 **Don’t forget to add tests and update documentation for your changes.**
 
 **Please update npm lock file (`package-lock.json / yarn.lock`) if you add or update dependencies.**
