@@ -1,3 +1,10 @@
+### [1.3.5](https://github.com/iamyoki/playwright-watch/compare/v1.3.4...v1.3.5) (2021-09-06)
+
+
+### 🔫 Chores
+
+* 🔫 add files field in package.json ([0472e05](https://github.com/iamyoki/playwright-watch/commit/0472e0593ca9fd6de8d6a3bcece1776315528f81))
+
 ### [1.3.4](https://github.com/iamyoki/playwright-watch/compare/v1.3.3...v1.3.4) (2021-09-06)
 
 
