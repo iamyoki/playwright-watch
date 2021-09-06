@@ -12,6 +12,9 @@ branches:
 env:
   - HUSKY=0
 
+before_install:
+  - npm install -g codecov
+
 install:
   - yarn install --frozen-lockfile
 
