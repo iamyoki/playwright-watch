@@ -50,6 +50,7 @@
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@types/jest": "^27.0.1",
     "commitlint": "^13.1.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
@@ -67,5 +68,10 @@
   },
   "peerDependencies": {
     "playwright": ">=1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
