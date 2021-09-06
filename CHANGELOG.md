@@ -1,3 +1,22 @@
+## [1.3.0](https://github.com/iamyoki/playwright-watch/compare/v1.2.26...v1.3.0) (2021-09-06)
+
+
+### 🌠 Docs
+
+* 🌠 add build badge ([07630a7](https://github.com/iamyoki/playwright-watch/commit/07630a77b876e16052137f8c43e7784e4a73d67b))
+* 🌠 update Contributing.md ([70d012d](https://github.com/iamyoki/playwright-watch/commit/70d012d9734ac6c8eb05e16bf1603cdc832dfb00))
+
+
+### 🚀 Features
+
+* 🚀 add github action for testing & code coverage ([0024b4c](https://github.com/iamyoki/playwright-watch/commit/0024b4c34c5baa4739adb11f39cef3bf062a2a3a))
+
+
+### 🗳️ CICD
+
+* 🗳️ update codecov config ([e84c1f1](https://github.com/iamyoki/playwright-watch/commit/e84c1f178c4f47ec1e49bd318c078e8301ef8a72))
+* 🗳️ update github actions ([7ac9d7f](https://github.com/iamyoki/playwright-watch/commit/7ac9d7fb4930d5c52902dbe6ec494f3d9ea07504))
+
 ### [1.2.26](https://github.com/iamyoki/playwright-watch/compare/v1.2.25...v1.2.26) (2021-09-06)
 
 
