@@ -15,14 +15,14 @@ install:
 script:
   - npm build
 
-after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
 before_deploy:
   - git symbolic-ref HEAD refs/heads/main
 
 deploy:
   provider: script
-  script: npm run release --ci
+  script: npm run release -- --ci --no-git.requireUpstream
   skip_cleanup: true
   on:
     branch: main
