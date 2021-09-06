@@ -1,3 +1,16 @@
+### [1.2.24](https://github.com/iamyoki/playwright-watch/compare/v1.2.22...v1.2.24) (2021-09-06)
+
+
+### 🗳️ CICD
+
+* update config ([7fbc051](https://github.com/iamyoki/playwright-watch/commit/7fbc05168f541c555da8971041836c0a2e41c01c))
+* update config ([2d2f16a](https://github.com/iamyoki/playwright-watch/commit/2d2f16a340508afdf2f7524dd6f134188d2edaaa))
+
+
+### 🔫 Chores
+
+* version update ([4d3bbee](https://github.com/iamyoki/playwright-watch/commit/4d3bbee4e4bdf320c84f00aa8122bf14d216adea))
+
 ### [1.2.22](https://github.com/iamyoki/playwright-watch/compare/v1.2.21...v1.2.22) (2021-09-06)
 
 
