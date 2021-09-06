@@ -1,5 +1,5 @@
 git:
-  commitMessages: "chore: release v${version} [ci skip]"
+  commitMessages: "chore: release v${version} [skip travis]"
 
 plugins:
   "@release-it/conventional-changelog":
