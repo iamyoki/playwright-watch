@@ -1,3 +1,10 @@
+### [1.2.21](https://github.com/iamyoki/playwright-watch/compare/v1.2.20...v1.2.21) (2021-09-06)
+
+
+### 🗳️ CICD
+
+* skip message ([5790357](https://github.com/iamyoki/playwright-watch/commit/5790357437ed6987d5dd1761545cbfa077012814))
+
 ### [1.2.20](https://github.com/iamyoki/playwright-watch/compare/v1.2.19...v1.2.20) (2021-09-06)
 
 ### [1.2.19](https://github.com/iamyoki/playwright-watch/compare/v1.2.18...v1.2.19) (2021-09-06)
