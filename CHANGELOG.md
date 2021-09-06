@@ -1,3 +1,15 @@
+### [1.3.4](https://github.com/iamyoki/playwright-watch/compare/v1.3.3...v1.3.4) (2021-09-06)
+
+
+### ✅ Testing
+
+* ✅ change config ([eb767e5](https://github.com/iamyoki/playwright-watch/commit/eb767e54492315ca37d98c4ddf6a1c7679ad557b))
+
+
+### 🐛 Bug Fixes
+
+* 🐛 version error ([d26ef36](https://github.com/iamyoki/playwright-watch/commit/d26ef369c50d7e1415348809addb4363a16388d4))
+
 ### [1.3.3](https://github.com/iamyoki/playwright-watch/compare/v1.3.1...v1.3.3) (2021-09-06)
 
 
