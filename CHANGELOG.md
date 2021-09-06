@@ -1,3 +1,24 @@
+### [1.2.17](https://github.com/iamyoki/playwright-watch/compare/v1.2.12...v1.2.17) (2021-09-06)
+
+
+### 🔫 Chores
+
+* update releaserc ([95c2f62](https://github.com/iamyoki/playwright-watch/commit/95c2f6232db5431d3dfe4aa4e4aa1b56470dd357))
+
+
+### 🗳️ CICD
+
+* travis ([8a75cfc](https://github.com/iamyoki/playwright-watch/commit/8a75cfc088c3b4e47c39fd690c3a56bc7c9dcbfa))
+* travis ([39dc4f6](https://github.com/iamyoki/playwright-watch/commit/39dc4f6594e630c55c9fc76702b52f38314301a9))
+* travis ([e8f63dd](https://github.com/iamyoki/playwright-watch/commit/e8f63dd98616661725bc849489789a072f92b311))
+* travis ([0a1d1a4](https://github.com/iamyoki/playwright-watch/commit/0a1d1a40f12707e00484828c24491aa3362a0ee3))
+* travis ([0e1f014](https://github.com/iamyoki/playwright-watch/commit/0e1f014425ab01c2c5b3791f595c2624808e5706))
+* update ([cc0c340](https://github.com/iamyoki/playwright-watch/commit/cc0c340f6c87991fb4584f327fe8bcbcb2df7cfb))
+* update ([fd023e9](https://github.com/iamyoki/playwright-watch/commit/fd023e9fcd5e3609e333a0c8ce763b38ca7369bc))
+* update ([4155b5a](https://github.com/iamyoki/playwright-watch/commit/4155b5a268cf3c87768cbc6b7360f482f46b7f83))
+* update ([b330adb](https://github.com/iamyoki/playwright-watch/commit/b330adb39632f0702b7c4603840bdcd956d1a5ae))
+* update ([94b5b85](https://github.com/iamyoki/playwright-watch/commit/94b5b85316526559cc24b91dc8e5707c625c6be1))
+
 ### [1.2.12](https://github.com/iamyoki/playwright-watch/compare/v1.0.0...v1.2.12) (2021-09-04)
 
 
