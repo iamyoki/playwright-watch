@@ -24,7 +24,6 @@ before_deploy:
   - git config --global user.name "Travis CI"
   - git config --global user.email "yokiyuqian@gmail.com"
   - git remote set-url origin https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git
-  - git symbolic-ref HEAD refs/heads/main
 
 deploy:
   provider: script
