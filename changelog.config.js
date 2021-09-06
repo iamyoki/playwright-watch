@@ -21,7 +21,6 @@ module.exports = {
     'issues',
     // 'lerna',
   ],
-  scopes: [],
   types: {
     chore: {
       description: 'Build process or auxiliary tool changes',

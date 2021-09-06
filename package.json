@@ -23,10 +23,10 @@
   "bin": "src/bin/playwright-watch.js",
   "scripts": {
     "prepare": "husky install",
-    "commit": "git add . && yarn git-cz",
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint '**/*.js' --color",
+    "commit": "git add . && yarn git-cz",
     "prerelease": "yarn test && yarn lint --fix",
     "release": "release-it"
   },
