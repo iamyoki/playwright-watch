@@ -3,17 +3,20 @@ language: node_js
 node_js:
   - 14
 
-cache: npm
+cache: yarn
 
 branches:
   only:
     - main
 
+env:
+  - HUSKY=0
+
 install:
-  - npm ci
+  - yarn install --frozen-lockfile
 
 script:
-  - npm build
+  - yarn build
 
 after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
