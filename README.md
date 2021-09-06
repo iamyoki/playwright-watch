@@ -17,9 +17,20 @@
     <img src="https://img.shields.io/github/issues/iamyoki/playwright-watch" alt="github issues">
   </a>
 
+  <br>
+
   <a href="https://app.travis-ci.com/github/iamyoki/playwright-watch">
-    <img src="https://img.shields.io/travis/iamyoki/playwright-watch" alt="build">
+    <img src="https://app.travis-ci.com/iamyoki/playwright-watch.svg" alt="build">
   </a>
+
+  <a href="https://github.com/iamyoki/playwright-watch/actions/workflows/testing.yml">
+    <img alt="GitHub Testing Status" src="https://github.com/iamyoki/playwright-watch/actions/workflows/node.js.yml/badge.svg">
+  </a>
+
+  <a href="https://codecov.io/gh/iamyoki/playwright-watch">
+    <img src="https://codecov.io/gh/iamyoki/playwright-watch/branch/main/graph/badge.svg?token=RD13S01FD1"/>
+  </a>
+    
 </div>
 
 <br>
