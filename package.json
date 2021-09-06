@@ -21,6 +21,11 @@
   "bugs": "https://github.com/iamyoki/playwright-watch/issues",
   "license": "MIT",
   "bin": "bin/playwright-watch.js",
+  "files": [
+    "bin",
+    "commands",
+    "lib"
+  ],
   "scripts": {
     "prepare": "husky install",
     "test": "jest",
