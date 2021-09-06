@@ -1,3 +1,21 @@
+### [1.3.3](https://github.com/iamyoki/playwright-watch/compare/v1.3.1...v1.3.3) (2021-09-06)
+
+
+### 🔫 Chores
+
+* 🔫 update readme, change github action file name ([e6444dd](https://github.com/iamyoki/playwright-watch/commit/e6444dda0479cb32730b065b647668b2e183317d))
+
+
+### 🌠 Docs
+
+* 🌠 fix badge error ([a1f58af](https://github.com/iamyoki/playwright-watch/commit/a1f58af6b825b14e4d90d9b3520357e70e5ad645))
+* 🌠 fix content error ([d41e8af](https://github.com/iamyoki/playwright-watch/commit/d41e8af53a9b01f4b86f81cea230afac67a0710e))
+
+
+### 🐛 Bug Fixes
+
+* 🐛 version error ([3a78e76](https://github.com/iamyoki/playwright-watch/commit/3a78e766453b6f11a9f2999af610bda7d63bca49))
+
 ### [1.3.1](https://github.com/iamyoki/playwright-watch/compare/v1.3.0...v1.3.1) (2021-09-06)
 
 
