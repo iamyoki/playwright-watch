@@ -1,3 +1,11 @@
+### [1.3.6](https://github.com/iamyoki/playwright-watch/compare/v1.3.5...v1.3.6) (2021-09-08)
+
+
+### ✅ Testing
+
+* ✅ add getWatchPath test ([67ae2c2](https://github.com/iamyoki/playwright-watch/commit/67ae2c2b3d96988f3b1ea24bc400f6083f76b867))
+* ✅ add watch test ([d1af2e8](https://github.com/iamyoki/playwright-watch/commit/d1af2e832d63f110fc7197d591efdd2b3f030559))
+
 ### [1.3.5](https://github.com/iamyoki/playwright-watch/compare/v1.3.4...v1.3.5) (2021-09-06)
 
 
