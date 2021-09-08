@@ -1,3 +1,10 @@
+### [1.3.7](https://github.com/iamyoki/playwright-watch/compare/v1.3.6...v1.3.7) (2021-09-08)
+
+
+### ✅ Testing
+
+* ✅ test getWatchPaths.js up to 100% cov ([42342f0](https://github.com/iamyoki/playwright-watch/commit/42342f08d8e18eb110bd33d85725198ee10aa90a))
+
 ### [1.3.6](https://github.com/iamyoki/playwright-watch/compare/v1.3.5...v1.3.6) (2021-09-08)
 
 
