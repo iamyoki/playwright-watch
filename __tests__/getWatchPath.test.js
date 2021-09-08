@@ -1,32 +1,33 @@
-const getWatchPath = require('../lib/getWatchPath');
+const cosmiconfig = require('cosmiconfig')
+const getWatchPath = require('../lib/getWatchPath')
 
-const testMatch = '**/*.*(test|spec).(js|ts|mjs)'
+const testMatch = '**/*.js'
 
-jest.mock('cosmiconfig',  ()=>{
+jest.mock('cosmiconfig', () => {
   return {
     cosmiconfigSync() {
       return {
-        search(){
+        search() {
           return {
             config: {
-              testMatch
-            }
+              testMatch,
+            },
           }
         },
         load() {
           return {
-            testMatch
+            testMatch,
           }
-        }
+        },
       }
-    }
+    },
   }
 })
 
-it('should get path from config', ()=>{
+it('should get path from config', () => {
   expect(getWatchPath()).toBe(testMatch)
 })
 
-it('should get path from specific config', ()=>{
+it('should get path from specific config', () => {
   expect(getWatchPath('somepath')).toBe(testMatch)
 })
