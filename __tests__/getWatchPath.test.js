@@ -3,31 +3,39 @@ const getWatchPath = require('../lib/getWatchPath')
 
 const testMatch = '**/*.js'
 
-jest.mock('cosmiconfig', () => {
-  return {
-    cosmiconfigSync() {
-      return {
-        search() {
-          return {
-            config: {
-              testMatch,
-            },
-          }
-        },
-        load() {
-          return {
-            testMatch,
-          }
-        },
-      }
-    },
-  }
-})
+jest.mock('cosmiconfig')
 
-it('should get path from config', () => {
-  expect(getWatchPath()).toBe(testMatch)
+it('get default paths if no config found', () => {
+  cosmiconfig.cosmiconfigSync.mockReturnValue({
+    search: () => ({}),
+    load: () => ({}),
+  })
+  expect(getWatchPath()).toBe('**/*.*(test|spec).(js|ts|mjs)')
+
+  cosmiconfig.cosmiconfigSync.mockReturnValue({
+    search: () => undefined,
+    load: () => ({}),
+  })
+  expect(getWatchPath()).toBe('**/*.*(test|spec).(js|ts|mjs)')
 })
 
 it('should get path from specific config', () => {
-  expect(getWatchPath('somepath')).toBe(testMatch)
+  cosmiconfig.cosmiconfigSync.mockReturnValue({
+    search: () => ({}),
+    load: () => ({
+      config: {},
+    }),
+  })
+  expect(getWatchPath('someConfigPath')).toBe('**/*.*(test|spec).(js|ts|mjs)')
+
+  cosmiconfig.cosmiconfigSync.mockReturnValue({
+    search: () => ({}),
+    load: () => ({
+      config: {
+        testMatch: 'someGlobString',
+      },
+    }),
+  })
+
+  expect(getWatchPath('someConfigPath')).toBe('someGlobString')
 })
