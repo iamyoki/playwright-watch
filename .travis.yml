@@ -28,17 +28,18 @@ jobs:
         - git remote set-url origin https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git
         - git symbolic-ref HEAD refs/heads/main
       deploy:
-        provider: script
-        script: npm run release -- --ci
-        skip_cleanup: true
-        on:
-          branch: main
-    - stage: Release Built Files
-      deploy:
-        provider: releases
-        api_key: $GITHUB_TOKEN
-        file: lib/*
-        file_glob: true
-        skip_cleanup: true
-        on:
-          branch: main
+        - provider: script
+          name: release changelog
+          script: npm run release -- --ci
+          skip_cleanup: true
+          on:
+            branch: main
+
+        - provider: releases
+          name: release custom files
+          api_key: $GITHUB_TOKEN
+          file: lib/*
+          file_glob: true
+          skip_cleanup: true
+          on:
+            tags: true
