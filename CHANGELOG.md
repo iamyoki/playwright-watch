@@ -1,3 +1,10 @@
+### [1.3.12](https://github.com/iamyoki/playwright-watch/compare/v1.3.11...v1.3.12) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ add file glob ([9e2d5f1](https://github.com/iamyoki/playwright-watch/commit/9e2d5f133da009db894be316c447125303eebcc8))
+
 ### [1.3.11](https://github.com/iamyoki/playwright-watch/compare/v1.3.10...v1.3.11) (2021-09-09)
 
 
