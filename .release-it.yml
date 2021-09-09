@@ -1,6 +1,9 @@
 git:
   commitMessage: "🚀 Release v${version} [skip ci]"
 
+github:
+  release: true
+
 plugins:
   "@release-it/conventional-changelog":
     preset:
