@@ -1,3 +1,10 @@
+### [1.3.8](https://github.com/iamyoki/playwright-watch/compare/v1.3.7...v1.3.8) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ add github release changelog ([eadd212](https://github.com/iamyoki/playwright-watch/commit/eadd21200c628e513fc6a5a9d56d963556f8bb51))
+
 ### [1.3.7](https://github.com/iamyoki/playwright-watch/compare/v1.3.6...v1.3.7) (2021-09-08)
 
 
