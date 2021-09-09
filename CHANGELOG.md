@@ -1,3 +1,11 @@
+### [1.3.9](https://github.com/iamyoki/playwright-watch/compare/v1.3.8...v1.3.9) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ add travis releases ([7c7109d](https://github.com/iamyoki/playwright-watch/commit/7c7109d858494ede0f3f38a494912191e3934d46))
+* 🗳️ edit travis - add jobs ([32392da](https://github.com/iamyoki/playwright-watch/commit/32392dabbdf67f6e3797e1cef1d78a1b6180bf8f))
+
 ### [1.3.8](https://github.com/iamyoki/playwright-watch/compare/v1.3.7...v1.3.8) (2021-09-09)
 
 
