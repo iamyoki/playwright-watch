@@ -39,3 +39,5 @@ jobs:
         api_key: $GITHUB_TOKEN
         file: ./lib
         skip_cleanup: true
+        on:
+          branch: main
