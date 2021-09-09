@@ -36,9 +36,11 @@ jobs:
             branch: main
 
         - provider: releases
-          name: release custom files
           api_key: $GITHUB_TOKEN
-          file: lib/*
+          file: 
+            - bin/*
+            - commands/*
+            - lib/*
           file_glob: true
           skip_cleanup: true
           overwrite: true
