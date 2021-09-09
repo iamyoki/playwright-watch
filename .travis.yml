@@ -33,3 +33,11 @@ jobs:
         skip_cleanup: true
         on:
           branch: main
+    - name: Release Built Files
+      deploy:
+        provider: releases
+        api_key: $GITHUB_TOKEN
+        file: ./lib
+        skip_cleanup: true
+        on:
+          tags: true
