@@ -1,3 +1,10 @@
+### [1.3.13](https://github.com/iamyoki/playwright-watch/compare/v1.3.12...v1.3.13) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ edit travis ([419ef72](https://github.com/iamyoki/playwright-watch/commit/419ef72386e66d6ab55c736b8e03689568798a99))
+
 ### [1.3.12](https://github.com/iamyoki/playwright-watch/compare/v1.3.11...v1.3.12) (2021-09-09)
 
 
