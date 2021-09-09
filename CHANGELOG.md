@@ -1,3 +1,10 @@
+### [1.3.16](https://github.com/iamyoki/playwright-watch/compare/v1.3.15...v1.3.16) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ change release files ([0e802b6](https://github.com/iamyoki/playwright-watch/commit/0e802b61a18e9a866f7c0429b4d66ea4cf5f8c95))
+
 ### [1.3.15](https://github.com/iamyoki/playwright-watch/compare/v1.3.14...v1.3.15) (2021-09-09)
 
 
