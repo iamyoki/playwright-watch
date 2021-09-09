@@ -1,3 +1,10 @@
+### [1.3.15](https://github.com/iamyoki/playwright-watch/compare/v1.3.14...v1.3.15) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ add on branch ([455a1ff](https://github.com/iamyoki/playwright-watch/commit/455a1ff32627bed836ee6d0ffe8c411763e740ae))
+
 ### [1.3.14](https://github.com/iamyoki/playwright-watch/compare/v1.3.13...v1.3.14) (2021-09-09)
 
 
