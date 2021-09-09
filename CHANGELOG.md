@@ -1,3 +1,10 @@
+### [1.3.11](https://github.com/iamyoki/playwright-watch/compare/v1.3.10...v1.3.11) (2021-09-09)
+
+
+### 🗳️ CICD
+
+* 🗳️ on main branch ([ca0f1b8](https://github.com/iamyoki/playwright-watch/commit/ca0f1b877a3d587f50aab0bf374b858c53a8d7a6))
+
 ### [1.3.10](https://github.com/iamyoki/playwright-watch/compare/v1.3.9...v1.3.10) (2021-09-09)
 
 
