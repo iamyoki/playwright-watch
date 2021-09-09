@@ -14,7 +14,7 @@ env:
 
 jobs:
   include:
-    - name: Build and Publish to Npm and Push to Github
+    - stage: Build and Publish to Npm and Push to Github
       before_install:
         - npm install -g codecov
       install:
@@ -33,11 +33,9 @@ jobs:
         skip_cleanup: true
         on:
           branch: main
-    - name: Release Built Files
+    - stage: Release Built Files
       deploy:
         provider: releases
         api_key: $GITHUB_TOKEN
         file: ./lib
         skip_cleanup: true
-        on:
-          tags: true
