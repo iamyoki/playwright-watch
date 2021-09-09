@@ -12,26 +12,24 @@ branches:
 env:
   - HUSKY=0
 
-before_install:
-  - npm install -g codecov
-
-install:
-  - yarn install --frozen-lockfile
-
-# script:
-#   - yarn build
-
-after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-
-before_deploy:
-  - git config --global user.name "Travis CI"
-  - git config --global user.email "yokiyuqian@gmail.com"
-  - git remote set-url origin https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git
-  - git symbolic-ref HEAD refs/heads/main
-
-deploy:
-  provider: script
-  script: npm run release -- --ci
-  skip_cleanup: true
-  on:
-    branch: main
+jobs:
+  include:
+    - name: Build and Publish to Npm and Push to Github
+      before_install:
+        - npm install -g codecov
+      install:
+        - yarn install --frozen-lockfile
+      # script:
+      #   - yarn build
+      after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+      before_deploy:
+        - git config --global user.name "Travis CI"
+        - git config --global user.email "yokiyuqian@gmail.com"
+        - git remote set-url origin https://iamyoki:${GITHUB_TOKEN}@github.com/iamyoki/playwright-watch.git
+        - git symbolic-ref HEAD refs/heads/main
+      deploy:
+        provider: script
+        script: npm run release -- --ci
+        skip_cleanup: true
+        on:
+          branch: main
