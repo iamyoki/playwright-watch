@@ -30,19 +30,11 @@
     "prepare": "husky install",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "lint": "eslint '**/*.js' --color",
-    "format": "prettier **/*.js --write",
+    "lint": "eslint '**/*.js' --color --fix",
+    "format": "prettier '**/*.js' --write",
     "commit": "git add . && yarn git-cz",
     "prerelease": "yarn test && yarn lint --fix && yarn format",
     "release": "release-it"
-  },
-  "lint-staged": {
-    "**/**.{test,spec}.js": [
-      "yarn test"
-    ],
-    "**/!(*{test,spec}).js": [
-      "yarn lint --fix"
-    ]
   },
   "dependencies": {
     "chokidar": "^3.5.2",

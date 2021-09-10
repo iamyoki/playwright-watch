@@ -1,0 +1,3 @@
+"**/*.js":
+  - yarn lint
+  - yarn format
