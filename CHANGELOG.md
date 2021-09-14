@@ -1,3 +1,10 @@
+### [1.3.17](https://github.com/iamyoki/playwright-watch/compare/v1.3.16...v1.3.17) (2021-09-10)
+
+
+### 🔫 Chores
+
+* 🔫 update lintstaged config ([10ba057](https://github.com/iamyoki/playwright-watch/commit/10ba057e806002b8a59322851ecf039e6acace8d))
+
 ### [1.3.16](https://github.com/iamyoki/playwright-watch/compare/v1.3.15...v1.3.16) (2021-09-09)
 
 
