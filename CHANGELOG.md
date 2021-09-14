@@ -1,3 +1,20 @@
+### [1.3.19](https://github.com/iamyoki/playwright-watch/compare/v1.3.17...v1.3.19) (2021-09-14)
+
+
+### 🔫 Chores
+
+* 🔫 config vscodfe ([843db86](https://github.com/iamyoki/playwright-watch/commit/843db86c6bffa6c4baed4e8f37df976a2657bcc1))
+
+
+### ✅ Testing
+
+* ✅ update watch.test.js ([0b02b29](https://github.com/iamyoki/playwright-watch/commit/0b02b29eecfeeebd555f47fa3df967b9aa329d32))
+
+
+### 🐛 Bug Fixes
+
+* 🐛 version ([9aa8825](https://github.com/iamyoki/playwright-watch/commit/9aa882595a32420a03d14885e82c57fbfc35ad05))
+
 ### [1.3.17](https://github.com/iamyoki/playwright-watch/compare/v1.3.16...v1.3.17) (2021-09-10)
 
 
