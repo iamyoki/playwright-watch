@@ -19,8 +19,8 @@ jobs:
         - npm install -g codecov
       install:
         - yarn install --frozen-lockfile
-      # script:
-      #   - yarn build
+      script:
+        - yarn build
       after_success: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       before_deploy:
         - git config --global user.name "Travis CI"
@@ -37,10 +37,8 @@ jobs:
 
         - provider: releases
           api_key: $GITHUB_TOKEN
-          file: 
-            - bin/*
-            - commands/*
-            - lib/*
+          file:
+            - dist/*
           file_glob: true
           skip_cleanup: true
           overwrite: true
