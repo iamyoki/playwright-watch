@@ -27,7 +27,7 @@
   "scripts": {
     "prepare": "husky install",
     "start": "yarn run build --watch",
-    "build": "rimraf dist && babel src --out-dir dist",
+    "build": "rimraf dist && babel src --out-dir dist --ignore '**/__tests__'",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint '**/*.js' --color --fix",
