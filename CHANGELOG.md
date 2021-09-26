@@ -1,3 +1,16 @@
+### [1.3.20](https://github.com/iamyoki/playwright-watch/compare/v1.3.19...v1.3.20) (2021-09-26)
+
+
+### 🔫 Chores
+
+* 🔫 add babel transpile to es6 ([a247166](https://github.com/iamyoki/playwright-watch/commit/a24716686bae7bb543a9d9c8b1c7556c33aaa5b0)), closes [#1](https://github.com/iamyoki/playwright-watch/issues/1)
+* 🔫 update ignore config ([bad59a0](https://github.com/iamyoki/playwright-watch/commit/bad59a0339ae4fde291ea76a36b49b8d60ababda))
+
+
+### 🗳️ CICD
+
+* 🗳️ update travis ci, add yarn build ([d65547b](https://github.com/iamyoki/playwright-watch/commit/d65547b4cfa2689743a1e3fde9755ca1a3de6a75)), closes [#1](https://github.com/iamyoki/playwright-watch/issues/1)
+
 ### [1.3.19](https://github.com/iamyoki/playwright-watch/compare/v1.3.17...v1.3.19) (2021-09-14)
 
 
