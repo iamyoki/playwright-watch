@@ -7,7 +7,6 @@ const presetIgnorePaths = ['!node_modules']
 let child
 
 const runCommand = (command) => {
-  console.log('================================================')
   spawn(command[0], command.slice(1), {
     stdio: 'inherit',
   })
