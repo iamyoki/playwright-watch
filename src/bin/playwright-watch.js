@@ -25,7 +25,7 @@ yargs(hideBin(process.argv))
     {
       config: {
         alias: 'c',
-        desc: 'Configuration file of Playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `.*(test|spec).(js|ts|mjs)`).',
+        desc: 'Configuration file of Playwright (default: playwright.config.js), the `testMatch` prop will be watch path (default: `*.(test|spec).(js|ts|mjs)`).',
       },
     },
     execCommand
