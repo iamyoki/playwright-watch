@@ -30,8 +30,7 @@
     "build": "rimraf dist && babel src --out-dir dist --ignore '**/__tests__'",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "lint": "eslint '**/*.js' --color --fix",
-    "format": "prettier '**/*.js' --write",
+    "lint": "eslint --color --fix --ext .js",
     "commit": "git add . && yarn git-cz",
     "prerelease": "yarn test && yarn lint --fix && yarn format",
     "release": "release-it"
