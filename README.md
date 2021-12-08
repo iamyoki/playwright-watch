@@ -41,7 +41,7 @@
   <code>+</code>
   <code>watch</code>
   <code>=</code>
-  <code>palywright-watch</code>
+  <code>playwright-watch</code>
 </p>
 <p align="center">🙈🐵 Run Playwright in watch mode</p>
 
