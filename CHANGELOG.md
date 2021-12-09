@@ -1,3 +1,5 @@
+### [1.3.23](https://github.com/iamyoki/playwright-watch/compare/v1.3.22...v1.3.23) (2021-12-09)
+
 ### [1.3.22](https://github.com/iamyoki/playwright-watch/compare/v1.3.21...v1.3.22) (2021-11-01)
 
 
