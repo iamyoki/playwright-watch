@@ -8,6 +8,7 @@ let child
 
 const runCommand = (command) => {
   spawn(command[0], command.slice(1), {
+    shell: process.platform === 'win32',
     stdio: 'inherit',
   })
 }
